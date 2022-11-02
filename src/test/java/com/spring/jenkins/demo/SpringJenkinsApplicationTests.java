@@ -16,7 +16,7 @@ Logger logger= LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 
 	@Test
 	void contextLoads() {
-		logger.info("Test cas executing....");
+		logger.info("Test case executing....");
 		assertEquals(true,true);
 	}
 
